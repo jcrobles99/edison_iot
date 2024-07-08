@@ -20,6 +20,6 @@ Ya teniendo esto se prosiguió a realizar la página HTML para controlar los mó
 
 La página está hecha a través de lenguaje HTML, las acciones de los botones y demás es con ayuda del lenguaje Javascript y el estilo de la página fue con lenguaje CSS.
 
-![conexion]()
-![interfazclaro]()
-![interfazoscuro]()
+![conexion](https://github.com/jcrobles99/edison_iot/blob/main/conexion.png)
+![interfazclaro](https://github.com/jcrobles99/edison_iot/blob/main/interfaz_modoclaro.png)
+![interfazoscuro](https://github.com/jcrobles99/edison_iot/blob/main/interfaz_modoscuro.jpg)

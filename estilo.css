@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#LED2{
+    font: 20px sans-serif;
+    padding: 10px 15px;
+    color: black;
+}
+
+#check_LEDs{
+    padding: 5px 10px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font: bold 25px sans-serif;
+}
+
+header,section,footer,aside{
+    display: block;
+}
+
+body{
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.agrupar{
+    width: 80%;
+    border: 1px solid black;
+    margin: 15px auto;
+    background: #273c75;
+
+}
+
+.cabeza{
+    background: #192a56;
+    border: 5px 0px 0px 0px solid #999999;
+    padding: 20px;
+}
+
+.datos{
+    margin: 20px;
+    width: 60%;
+    float: left;
+    font: 20px sans-serif;
+}
+img{
+    display: block;
+    margin: 20px auto;
+}
+.pie{
+    clear: both;
+    padding: 20px;
+    color: black;
+}
+
+.columna{
+    margin: 20px 0;
+    width: 30%;
+    float: left;
+}
+.columna blockquote{
+    font: 20px sans-serif;
+    padding: 10px;
+    background:#192a56;
+    border: 1px  solid #999999;
+    margin-bottom: 40px;
+}

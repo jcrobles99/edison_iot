@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Proyecto final equipo 1</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <script src="funciones.js"></script>
+        <div class="agrupar">
+            <header class="cabeza">
+                <h1>Proyecto final - Equipo 1</h1>
+            </header>
+            <section class="datos">
+                <h2>---Interfaz IoT de control en Edison---</h2>
+                <img src="https://m.media-amazon.com/images/I/71+C5RtAuuL._AC_SL1280_.jpg" alt="Error al carga la imagen" title="Tarjeta Edison" width="300" height="210">
+                <p><strong>Integrantes:</strong></p>
+                <p>Jesús Andrés Lara Acevedo 17060997</p>
+                <p>Juan Carlos Robles Ortega 17060833</p>
+                <p>Alejandro Lerma Corral 17060993</p>
+            </section>
+            <aside class="columna">
+                <blockquote>
+                    <h2>Alarma</h2>
+                    <form id="check_LEDs" name="LED_form">
+                    <input type="checkbox" name="LED1" value="0" style="width:20px;height:20px;" 
+                    onclick="GetCheck()" />      Activación de alarma
+                    </form>
+                </blockquote>
+                <blockquote>
+                    <h2>Botón</h2>
+                    <button type="button" id="LED2" onclick="GetButton1()">Activación relé
+                    </button><br /><br />
+                </blockquote>
+                <blockquote>
+                    <p>
+                        Estado: 
+                        <span id="message2"></span>
+                    </p>
+                </blockquote>
+            </aside>
+
+
+            <footer class="pie">
+                <input type="image" name="boton" src="http://teufel.com.mx/wp-content/uploads/2016/08/Regresar.png" length="100" width="150" align="right" onclick="location.href=&quot;http://192.168.100.82/&quot;%22%3E" />
+                />           
+           </footer>
+        </div>
+    </body>
+</html>
